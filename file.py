@@ -141,7 +141,7 @@ if uploaded_file is not None:
             st.pyplot(fig)
 
             # emoji analysis
-            emoji_df = helper.emoji_helper(selected_user, df)
+            """emoji_df = helper.emoji_helper(selected_user, df)
             st.title("Emoji Analysis")
 
             col1, col2 = st.columns(2)
@@ -151,7 +151,7 @@ if uploaded_file is not None:
             with col2:
                 fig, ax = plt.subplots()
                 ax.pie(emoji_df[1].head(), labels=emoji_df[0].head(), autopct="%0.2f")
-                st.pyplot(fig)
+                st.pyplot(fig)"""
 
                 # ...
 
