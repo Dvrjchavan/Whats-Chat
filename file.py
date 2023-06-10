@@ -75,10 +75,11 @@ if uploaded_file is not None:
             st.title("Most Influential Users:")
             st.write(influential_users)
 
+            """"
             communities = helper.detect_communities(df)
             st.title("Detected Communities:")
             st.write(communities)
-            helper.visualize_interaction_network(df)
+            helper.visualize_interaction_network(df)"""
 
             # activity map
             st.title('Activity Map')
